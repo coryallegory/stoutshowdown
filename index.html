@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css">
 
+    <link rel="stylesheet" href="brackets.css">
+
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -69,6 +71,12 @@
           <li class="nav-item">
             <a class="nav-link disabled" href="#round2">Round 2</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#round3">Round 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#graph">Graph</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -94,6 +102,7 @@
     Acquire and taste the beers at any time, then message Cory your rankings for each set of matchups. Each matchup has a deadline for your votes to count and keep this moving.
     <br/><br/>
     *The MLCC website is pretty good at tracking "store inventory", you can click the Links icon in a given row in the Beer List to help track down some of the trickier ones.
+    
     <hr/>
 
     <h2 id="beerlist">Beer List</h2>
@@ -390,7 +399,7 @@
 
     <hr/>
 
-    <h2 id="round1">Round 1 (<a href="round1/">Data</a>)</h2>
+    <h2 id="round1">Round 1</h2>
 
     <div class="card p-2 my-2 bg-dark text-light" style="width: 30rem;">
       <h5 class="card-title">Matchup 1A</h5>
@@ -445,8 +454,8 @@
       <h6 class="card-subtitle mb-2 text-muted">Votes due: TBD</h6>
       <div class="card-body">
         <ul class="list-group list-group-flush">
-          <li>9. Farmery - Pioneer Harvest Stout</li>
           <li>6. Persephone - Nitro Dry Stout</li>
+          <li>9. Farmery - Pioneer Harvest Stout</li>
           <li>19. Innis & Gunn - Irish Whiskey Barrel Aged Stout</li>
         </ul>
       </div>
@@ -469,12 +478,151 @@
       <h6 class="card-subtitle mb-2 text-muted">Votes due: TBD</h6>
       <div class="card-body">
         <ul class="list-group list-group-flush">
-          <li>8. Whitewater Peanut Butter Shake</li>
-          <li>11. Garrison Deja Moo</li>
+          <li>8. Whitewater - Peanut Butter Shake</li>
+          <li>11. Garrison - Deja Moo</li>
           <li>21. Stone Angel - Marcellus Peanut Butter Milk Stout</li>
         </ul>
       </div>
     </div>
+
+    <hr/>
+
+    <h2 id="round2">Round 2 (TBD)</h2>
+
+    <hr/>
+
+    <h2 id="round3">Round 3 (TBD)</h2>
+
+    <hr/>
+
+    <h2 id="graph">Graph (<a href="data/">Data</a>)</h2>
+
+    <main id="tournament">
+      <ul class="round round-1">
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Devil May Care<br/>None Shall Pass <span>1A1</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle winner ">Barn Hammer<br/>Grandpa's Sweater <span>1A2</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">Oxus<br/>Juice of the Oats <span>1A3</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Quidi Vidi<br/>Cappuccino Stout<span>1B4</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">Half Pints<br/>Stir Stick Stout<span>1B5</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">Fort Garry Brewing<br/>Thom Bargen<span>1B15</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Black Bridge<br/>Milk Stout<span>1C12</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">Eagle<br/>Young's Dbl Choco Stout<span>1C13</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">One Great City<br/>Tipsy Cow<span>1C14</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Guinness<br/>Guinness Draught<span>1D7</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">Torque<br/>Diesel Fitter<span>1D10</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">Heineken<br/>Murphy's Irish Stout<span>1D18</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Persephone<br/>Nitro Dry Stout<span>1E6</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">Farmery<br/>Pioneer Harvest Stout<span>1E9</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">Innis & Gunn<br/>Irish Whiskey Stout<span>1E19</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Whitewater<br/>Midnight Stout<span>1F16</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">Spectrum<br/>White Chocolate Stout<span>1F17</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">Vessel<br/>Cus Word<span>1F20</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Whitewater<br/>Peanut Butter Shake<span>1G8</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">Garrison<br/>Deja Moo<span>1G11</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">Stone Angel<br/>Marcellus PB Milk Stout<span>1G21</span></li>
+
+        <li class="spacer">&nbsp;</li>
+
+        <li class="game game-top">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+
+        <li class="spacer">&nbsp;</li>
+
+        <li class="game game-top">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+
+        <li class="spacer">&nbsp;</li>
+
+      </ul>
+      <ul class="round round-2">
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">Barn Hammer<br/>Grandpa's Sweater<span>2A2</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">_<br/>_<span>2A_</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">_<br/>_<span>2A_</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">_<br/>_<span>2B_</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">_<br/>_<span>2B_</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">_<br/>_<span>2B_</span></li>
+
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">_<br/>_<span>2C_</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">&nbsp;<br/>&nbsp;<span>&nbsp;</span></li>
+
+        <li class="spacer">&nbsp;</li>
+
+      </ul>
+      <ul class="round round-3">
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-top">_<br/>_<span>3A_</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-middle ">_<br/>_<span>3A_</span></li>
+        <li class="game game-spacer">&nbsp;</li>
+        <li class="game game-bottom ">_<br/>_<span>3A_</span></li>
+
+        <li class="spacer">&nbsp;</li>
+
+      </ul>
+      <ul class="round round-4">
+        <li class="spacer">&nbsp;</li>
+        
+        <li class="game game-middle ">_<br/>_<span>👑</span></li>
+        
+        <li class="spacer">&nbsp;</li>
+      </ul>
+
+    </main>
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
